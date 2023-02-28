@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: large;
+  }
+
+  /* li a:hover {
+    background-color: #111;
+  }
+  .active {
+    background-color: #04AA6D;
+    font-style: italic;
+  } */
+
+  /* https://source.unsplash.com/random/1920x800/?wallpaper,company */
+  H2{
+    margin: 8px 6px;
+  }
+  .text{
+    padding: 0 0;
+    min-height: 80vh;
+    background-color: #121211;
+    background-image: url("papaioannou-kostas-tysecUm5HJA-unsplash.jpg");
+    background-size: cover;
+    text-align: center;
+    right: 100%;
+    
+    
+
+}
+.tex{
+
+    margin-top: 6vh ;
+    color: hwb(0 95% 4%);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.text h1{
+    font-size: 62Px;
+}
+.text h4{
+    margin: 10px 0 40px;
+    font-size: 20px;
+    color: #f9f7f7;
+}
+.visit{
+    display: inline-block;
+    text-decoration: none;
+    color: #faf9f9;
+    border: 1px solid rgb(26, 25, 25);
+    padding: 12px 34px ;
+    font-size: 14px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.visit:hover{
+    border: 1px solid #1b1a1a;
+    background: #2b2a2a;
+    transition: 1s;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color:#f6f3f3;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 22px;
+    padding: 10px;
+}
+.Course{
+    
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    text-decoration: underline;
+    
+   
+}
+.row{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.typ{
+   flex-basis: 31%;
+   background-color: #1a1919;
+   border-radius: 10px;
+   margin-bottom: 5%;
+   padding: 20px 12px;
+   box-sizing: border-box;
+   transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    color: #f6f3f3;
+    text-decoration-line: underline;
+    margin: 10px 0;
+}
+.typ:hover{
+    box-shadow: 0 0 20px 0 rgba(236, 236, 233, 0.933);
+}
+footer {
+    display: block;
+    background-color: #333;
+    text-align: center;
+  }
+  
